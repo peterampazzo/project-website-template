@@ -1,0 +1,17 @@
+name = "project-website-template"
+license = "MIT"
+description = ""
+homepage = "https://github.com/peterampazzo/project-website-template"
+tags = []
+features = []
+min_version = "0.1.0"
+
+[author]
+  name = "Pietro Rampazzo"
+  homepage = "github.com/peterampazzo"
+
+# If porting an existing theme
+[original]
+  name = ""
+  homepage = ""
+  repo = ""

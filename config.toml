@@ -1,0 +1,19 @@
+baseURL = "http://example.org/"
+title = "Project Title"
+description = "This is a project description"
+theme = "theme" 
+[params]
+    authors = ["Henrik Nielsen", "Inga Jensen", "Mikkel Andersen"]
+    notebook = "https://nbviewer.org"
+    data = "https://drive.google.com"
+    github = "https://github.com"
+    [[params.nav]]
+        label = "Data"
+        link = "/data-description"
+    [[params.nav]]
+        label = "Network"
+        link = "/network-analysis"
+    [[params.nav]]
+        label = "Text"
+        link = "/text-analysis"
+

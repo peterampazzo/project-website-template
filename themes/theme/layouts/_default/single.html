@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+{{- partial "head.html" . -}}
+<body>
+    {{- partial "header.html" . -}}
+    <!--Container-->
+    <div class="container w-full md:max-w-3xl mx-auto pt-20">
+        <div class="w-full px-4 md:px-6 text-xl text-gray-800 leading-normal" style="font-family:Georgia,serif;">
+            <!--Title-->
+            <div class="font-sans">
+                <h1 class="font-bold font-sans break-normal text-gray-900 pt-6 pb-2 text-3xl md:text-4xl">{{
+                    .Title }}</h1>
+            </div>
+            {{ .Content }}
+            <!--Divider-->
+            <hr class="border-b-2 border-gray-400 mt-8 mx-4">
+            <!--Next & Prev Links-->
+            <div class="font-sans flex justify-between content-center px-4 pb-12">
+                <div class="text-left">
+                    {{ if isset .Params "prev" }}
+                    <p><a href="{{ if eq .Params.prev "/" }}{{ .Site.BaseURL }}{{ else }}/{{ .Params.prev }}{{end}}"
+                            class="break-normal text-base md:text-sm text-green-500 font-bold no-underline hover:underline">&lt;
+                            Previous Page</a></p>
+                    {{ end }}
+                </div>
+                <div class="text-right">
+                    {{ if isset .Params "next" }}
+                    <p><a href="/{{ .Params.next }}"
+                            class="break-normal text-base md:text-sm text-green-500 font-bold no-underline hover:underline">Next
+                            Page &gt;</a></p>
+                    {{ end }}
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--/container-->
+    {{- partial "footer.html" . -}}
+    {{- partial "progressive-bar.html" . -}}
+</body>
+
+</html>
