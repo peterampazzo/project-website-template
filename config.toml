@@ -1,6 +1,7 @@
 baseURL = "https://peterampazzo.github.io/project-website-template/"
 title = "Project Title"
 description = "This is a project description"
+relativeURLs = true
 theme = "theme" 
 [params]
     authors = ["Henrik Nielsen", "Inga Jensen", "Mikkel Andersen"]
