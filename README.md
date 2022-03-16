@@ -2,7 +2,7 @@
 
 By using this template you would be able to create your own website and deploy it on Github Pages. This project create a static website, to test it locally (on your machine) you need to install [Hugo](https://gohugo.io/getting-started/installing/). This facilitate you to develop it and display the changes in real time.
 
-Therefore, clone this repository or fork it.
+Therefore, you can click on 'Use this template' button 😉
 
 #### [DEMO](https://peterampazzo.github.io/project-website-template/)
 
