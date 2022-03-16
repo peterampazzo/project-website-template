@@ -59,3 +59,4 @@ Some of the technologies used are:
 * [Hugo](https://gohugo.io/)
 * [Tailwind CSS](https://tailwindcss.com/)
 * [MathJax](https://www.mathjax.org/)
+* [Feather Icons](https://feathericons.com/)
