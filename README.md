@@ -53,7 +53,7 @@ Images and other files can also make public together with the website. They must
 
 ## Tech stuff 🤠
 
-This template has been built on top of [Minial Blog](https://github.com/tailwindtoolbox/Minimal-Blog) and wrapped into a [Hugo](https://gohugo.io/) website. 
+This template has been built on top of [Minimal Blog](https://github.com/tailwindtoolbox/Minimal-Blog) and wrapped into a [Hugo](https://gohugo.io/) website. 
 
 Some of the technologies used are:
 * [Hugo](https://gohugo.io/)
