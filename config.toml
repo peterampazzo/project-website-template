@@ -5,7 +5,7 @@ relativeURLs = true
 theme = "theme" 
 [params]
     authors = ["Henrik Nielsen", "Inga Jensen", "Mikkel Andersen"]
-    notebook = "explainer-notebook.html"
+    notebook = "/explainer-notebook.html"
     data = "https://drive.google.com"
     github = "https://github.com/peterampazzo/project-website-template"
     [[params.nav]]
